@@ -1,87 +1,56 @@
-# Project Title
+# CucumberJS with Gherkin scenarios based on BDD Approach in Protractor & Angular2 on Typescript
 
-One Paragraph of project description goes here
+An example project to setup CucumberJS with Gherkin scenarios based on Behavior-Driven development (BDD) in Protractor & Angular2 As a base for the project I've used the amazing starting pack: https://github.com/angular/quickstart.git
 
-## Getting Started
+## Get started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+```bash
+# clone the repo
+git clone https://github.com/suwigyarathore/bdd-by-cucumber-gherkin-on-ts-ng2 ng2-bdd-gherkin
 
-### Prerequisites
+# change directory to our repo
+cd ng2-bdd-gherkin
 
-What things you need to install the software and how to install them
+# install the repo with npm
+npm install
 
+# start the server
+npm start
+
+# run the tests ( this will both run the E2E & unit tests )
+npm run e2e
 ```
-Give examples
-```
+## BDD
 
-### Installing
+In software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD).Behavior-driven development combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
 
-A step by step series of examples that tell you have to get a development env running
+More info:
+- https://en.wikipedia.org/wiki/Behavior-driven_development
+- https://www.agilealliance.org/glossary/bdd/
 
-Say what the step will be
+## Chai & Chai as Expected
 
-```
-Give the example
-```
+Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+Chai as Promised extends Chai with a fluent language for asserting facts about promises
 
-And repeat
+More info:
+- http://chaijs.com/
+- http://chaijs.com/plugins/chai-as-promised/
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+## CucumberJS
 
-## Running the tests
+Cucumber.js is a Cucumber implementation written in pure JavaScript. It runs on Node.js, IO.js, browsers and any other JavaScript platform.
 
-Explain how to run the automated tests for this system
+More info:
+- https://cucumber.io/docs/reference/javascript
+- https://github.com/cucumber/cucumber-js
 
-### Break down into end to end tests
+## Gherkin scenarios
 
-Explain what these tests test and why
+Gherkin is the language that Cucumber understands. It is a Business Readable, Domain Specific Language that lets you describe software’s behaviour without detailing how that behaviour is implemented.
 
-```
-Give an example
-```
+Gherkin serves two purposes — documentation and automated tests. The third is a bonus feature — when it yells in red it’s talking to you, telling you what code you should write.
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+More info:
+- https://github.com/cucumber/cucumber/wiki/Gherkin
